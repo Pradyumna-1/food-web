@@ -31,7 +31,7 @@ const Menu = [
 
   {
     id: 4,
-    image: "../images/chola.jpg",
+    image: "/images/chola.jpg",
     name: "chole",
     category: "lunch",
     price: "30₹",
@@ -41,7 +41,7 @@ const Menu = [
 
   {
     id: 5,
-    image: "../images/pizza.jpg",
+    image: "/images/pizza.jpg",
     name: "pizza",
     category: "lunch",
     price: "125₹",
@@ -50,7 +50,7 @@ const Menu = [
   },
   {
     id: 6,
-    image: "../images/nonvegthali.jpg",
+    image: "/images/nonvegthali.jpg",
     name: "Non-veg",
     category: "dinner",
     price: "150₹",
@@ -60,7 +60,7 @@ const Menu = [
 
   {
     id: 7,
-    image: "../images/sweet.jpg",
+    image: "/images/sweet.jpg",
     name: "Sweets",
     category: "dinner",
     price: "30₹",
@@ -70,7 +70,7 @@ const Menu = [
 
   {
     id: 8,
-    image: "../images/rajmarice.jpg",
+    image: "/images/rajmarice.jpg",
     name: "Rajma Rice",
     category: "lunch",
     price: "135₹",
@@ -80,7 +80,7 @@ const Menu = [
 
   {
     id: 9,
-    image: "../images/samosa.jpg",
+    image: "/images/samosa.jpg",
     name: "samosa",
     category: "evening",
     price: "20₹",
@@ -90,7 +90,7 @@ const Menu = [
 
   {
     id: 10,
-    image: "../images/momos.jpg",
+    image: "/images/momos.jpg",
     name: "momos",
     category: "evening",
     price: "60₹",
@@ -100,7 +100,7 @@ const Menu = [
 
   {
     id: 11,
-    image: "../images/omlet.jpg",
+    image: "/images/omlet.jpg",
     name: "Omlet",
     category: "breakfast",
     price: "25₹",
@@ -110,7 +110,7 @@ const Menu = [
 
   {
     id: 12,
-    image: "../images/dosa.jpg",
+    image: "/images/dosa.jpg",
     name: "Dosa",
     category: "breakfast",
     price: "30₹",
@@ -118,15 +118,6 @@ const Menu = [
       "I love Dosa and it is very dalicious and it is very easy to cookand anyone can easly made this",
   },
 
-  {
-    id: 12,
-    image: "../images/vada.jpg",
-    name: "vada",
-    category: "breakfast",
-    price: "20₹",
-    description:
-      "I love Vada and it is very dalicious and it is very easy to cookand anyone can easly made this",
-  },
   {
     id: 13,
     image: "../images/idli.jpg",
@@ -336,6 +327,14 @@ const Menu = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, at consectetur totam voluptatibus quibusdam iusto.",
   },
-  
+  {
+    id: 35,
+    image: "/images/vada.jpg",
+    name: "vada",
+    category: "breakfast",
+    price: "20₹",
+    description:
+      "I love Vada and it is very dalicious and it is very easy to cookand anyone can easly made this",
+  },
 ];
 export default Menu;
